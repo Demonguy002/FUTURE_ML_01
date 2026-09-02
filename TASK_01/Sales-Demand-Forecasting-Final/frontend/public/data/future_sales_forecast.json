@@ -1,0 +1,867 @@
+{
+  "model": "Seasonal HGB-C",
+  "model_version": "95.72% validation champion",
+  "validation": {
+    "R2": 0.9571570557869099,
+    "MAPE": 3.0182225264,
+    "RMSE": 31501.1105,
+    "MAE": 25761.6362
+  },
+  "historical_end": "2017-08-15",
+  "forecast_start": "2017-08-16",
+  "forecast_end": "2017-11-13",
+  "horizons": {
+    "7": {
+      "days": 7,
+      "average_sales": 862611.5957218205,
+      "total_sales": 6038281.1700527435,
+      "peak_sales": 968088.7876480842,
+      "peak_date": "2017-08-20",
+      "first_day_sales": 873354.82359882,
+      "last_day_sales": 837012.3013348373,
+      "change_pct": -4.161255114413476
+    },
+    "30": {
+      "days": 30,
+      "average_sales": 866443.0940196145,
+      "total_sales": 25993292.820588436,
+      "peak_sales": 987952.4069755054,
+      "peak_date": "2017-08-27",
+      "first_day_sales": 873354.82359882,
+      "last_day_sales": 827117.5228773934,
+      "change_pct": -5.294217135126966
+    },
+    "60": {
+      "days": 60,
+      "average_sales": 868268.8353406654,
+      "total_sales": 52096130.120439924,
+      "peak_sales": 987952.4069755054,
+      "peak_date": "2017-08-27",
+      "first_day_sales": 873354.82359882,
+      "last_day_sales": 857760.47674322,
+      "change_pct": -1.7855682975838616
+    },
+    "90": {
+      "days": 90,
+      "average_sales": 872123.5087146293,
+      "total_sales": 78491115.78431664,
+      "peak_sales": 987952.4069755054,
+      "peak_date": "2017-08-27",
+      "first_day_sales": 873354.82359882,
+      "last_day_sales": 864497.1292259287,
+      "change_pct": -1.0142148567281684
+    }
+  },
+  "forecast": [
+    {
+      "date": "2017-08-16",
+      "sales": 873354.82359882,
+      "onpromotion": 30539.0,
+      "transactions": 88655.10714285714,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-17",
+      "sales": 798136.9131217771,
+      "onpromotion": 7505.0,
+      "transactions": 88847.61096938777,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-18",
+      "sales": 845551.0761905016,
+      "onpromotion": 13777.0,
+      "transactions": 89077.06136115162,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-19",
+      "sales": 863060.6486776994,
+      "onpromotion": 8614.0,
+      "transactions": 89093.63498119275,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-20",
+      "sales": 968088.7876480842,
+      "onpromotion": 9513.0,
+      "transactions": 88798.47908766392,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-21",
+      "sales": 853076.6194810238,
+      "onpromotion": 8100.0,
+      "transactions": 88606.63905508048,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-22",
+      "sales": 837012.3013348373,
+      "onpromotion": 10295.0,
+      "transactions": 88731.16187847622,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-23",
+      "sales": 864545.7522539356,
+      "onpromotion": 16500.0,
+      "transactions": 88974.0605169932,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-24",
+      "sales": 803835.219755836,
+      "onpromotion": 8268.0,
+      "transactions": 89219.09839260012,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-08-25",
+      "sales": 838012.3129593799,
+      "onpromotion": 13991.0,
+      "transactions": 89593.24476376442,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-26",
+      "sales": 853766.5200900837,
+      "onpromotion": 9061.0,
+      "transactions": 89607.3963624703,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-27",
+      "sales": 987952.4069755054,
+      "onpromotion": 10297.0,
+      "transactions": 89228.12480398708,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-28",
+      "sales": 868475.81896165,
+      "onpromotion": 8489.0,
+      "transactions": 89025.59354698662,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-29",
+      "sales": 872942.5278350809,
+      "onpromotion": 10876.0,
+      "transactions": 89041.04331652184,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-30",
+      "sales": 894574.235576442,
+      "onpromotion": 21491.0,
+      "transactions": 88932.40200639762,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-08-31",
+      "sales": 811530.6154165389,
+      "onpromotion": 11281.0,
+      "transactions": 88786.3092209118,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-01",
+      "sales": 864609.8187262473,
+      "onpromotion": 11583.642857142857,
+      "transactions": 88902.92740737296,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-02",
+      "sales": 880057.6566495704,
+      "onpromotion": 11490.451530612245,
+      "transactions": 88817.13910049341,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-03",
+      "sales": 980599.1595908387,
+      "onpromotion": 11590.681942419824,
+      "transactions": 88378.1797826539,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-04",
+      "sales": 862427.9223274695,
+      "onpromotion": 11663.027726077677,
+      "transactions": 88100.18620346297,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-05",
+      "sales": 860017.738860039,
+      "onpromotion": 11786.385859151878,
+      "transactions": 88136.90713930092,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-06",
+      "sales": 871800.9900197631,
+      "onpromotion": 11827.399639835874,
+      "transactions": 88305.29667999025,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-07",
+      "sales": 818446.589468108,
+      "onpromotion": 11674.19962697287,
+      "transactions": 88407.20013284704,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-08",
+      "sales": 836325.5264439781,
+      "onpromotion": 11808.385327936188,
+      "transactions": 88598.02870902015,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-09",
+      "sales": 850203.9575783073,
+      "onpromotion": 11723.720518219623,
+      "transactions": 88563.99402005658,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-10",
+      "sales": 953430.1935281418,
+      "onpromotion": 11845.56767958461,
+      "transactions": 88515.31523505859,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-11",
+      "sales": 846712.7014377753,
+      "onpromotion": 11937.08795385549,
+      "transactions": 88605.39792202497,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-12",
+      "sales": 845742.4215805898,
+      "onpromotion": 12076.162523636043,
+      "transactions": 88718.16213352587,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-13",
+      "sales": 861884.0416230133,
+      "onpromotion": 12128.70404233733,
+      "transactions": 88795.20363829467,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-14",
+      "sales": 827117.5228773934,
+      "onpromotion": 11471.193472420806,
+      "transactions": 88800.2070845603,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-15",
+      "sales": 843004.5873411694,
+      "onpromotion": 11612.843239292977,
+      "transactions": 88798.5140886736,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-16",
+      "sales": 862215.2731162108,
+      "onpromotion": 11535.551926410582,
+      "transactions": 88788.56597179938,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-17",
+      "sales": 960836.6712332548,
+      "onpromotion": 11639.89306663953,
+      "transactions": 88777.67065003533,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-18",
+      "sales": 860797.9396824094,
+      "onpromotion": 11715.853533305228,
+      "transactions": 88776.92749154859,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-19",
+      "sales": 849562.1617508527,
+      "onpromotion": 11844.9911594947,
+      "transactions": 88783.00922142241,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-20",
+      "sales": 861476.9118758563,
+      "onpromotion": 11900.347986619512,
+      "transactions": 88784.86091224194,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-21",
+      "sales": 826820.6835276231,
+      "onpromotion": 11736.074700427349,
+      "transactions": 88778.10378350085,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-22",
+      "sales": 851695.9994673488,
+      "onpromotion": 11859.934511156898,
+      "transactions": 88762.35397603302,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-23",
+      "sales": 858329.4663100003,
+      "onpromotion": 11783.825029412501,
+      "transactions": 88732.6793050426,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-24",
+      "sales": 956687.4604269468,
+      "onpromotion": 11881.068780462952,
+      "transactions": 88701.43941013447,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-25",
+      "sales": 867627.9822780304,
+      "onpromotion": 11937.642665479487,
+      "transactions": 88682.62921749691,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-26",
+      "sales": 863881.9614702635,
+      "onpromotion": 12060.808474960893,
+      "transactions": 88670.38049144369,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-27",
+      "sales": 873026.7152333787,
+      "onpromotion": 12103.123063352356,
+      "transactions": 88657.14253340519,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-09-28",
+      "sales": 839339.19772575,
+      "onpromotion": 11767.84174418637,
+      "transactions": 88647.31183794118,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-09-29",
+      "sales": 856192.2564120794,
+      "onpromotion": 11785.228949335882,
+      "transactions": 88642.34764569222,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-09-30",
+      "sales": 854417.7551393313,
+      "onpromotion": 11792.428452628488,
+      "transactions": 88633.04122563217,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-01",
+      "sales": 986211.86014511,
+      "onpromotion": 11803.213342700497,
+      "transactions": 88626.46630153,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-02",
+      "sales": 869067.8204780499,
+      "onpromotion": 11810.803749853378,
+      "transactions": 88635.33367720414,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-03",
+      "sales": 851892.7848065826,
+      "onpromotion": 11816.081464988225,
+      "transactions": 88654.44608698062,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-04",
+      "sales": 866667.3178965391,
+      "onpromotion": 11817.142022339523,
+      "transactions": 88672.92962082631,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-05",
+      "sales": 829483.5914301752,
+      "onpromotion": 11816.77567885751,
+      "transactions": 88686.05936871332,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-06",
+      "sales": 854210.8894292725,
+      "onpromotion": 11821.867680710533,
+      "transactions": 88696.0186271371,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-07",
+      "sales": 855134.6493166855,
+      "onpromotion": 11822.349193309617,
+      "transactions": 88699.51826706984,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-10-08",
+      "sales": 958919.2723959088,
+      "onpromotion": 11825.8716459914,
+      "transactions": 88704.35841874887,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-09",
+      "sales": 864443.3110777932,
+      "onpromotion": 11825.168216220216,
+      "transactions": 88711.10996102354,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-10-10",
+      "sales": 859494.8656480853,
+      "onpromotion": 11821.17108273324,
+      "transactions": 88714.88539098778,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-11",
+      "sales": 868948.6059461642,
+      "onpromotion": 11812.064245558142,
+      "transactions": 88714.76836446856,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-12",
+      "sales": 839882.5263447482,
+      "onpromotion": 11800.755681387458,
+      "transactions": 88711.89567611762,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-13",
+      "sales": 854806.3052026542,
+      "onpromotion": 11812.525760279124,
+      "transactions": 88708.74169724468,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-14",
+      "sales": 857760.47674322,
+      "onpromotion": 11819.657278885774,
+      "transactions": 88705.53554040795,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-15",
+      "sales": 960101.5392957997,
+      "onpromotion": 11829.803898617029,
+      "transactions": 88702.57016785826,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-16",
+      "sales": 870295.9003740813,
+      "onpromotion": 11836.58642833051,
+      "transactions": 88699.88800778051,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-17",
+      "sales": 868144.3674204897,
+      "onpromotion": 11840.898317438556,
+      "transactions": 88697.13659764593,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-18",
+      "sales": 868693.6856382416,
+      "onpromotion": 11840.75214450798,
+      "transactions": 88694.06971822532,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-19",
+      "sales": 838502.7251190898,
+      "onpromotion": 11838.623721575426,
+      "transactions": 88690.82717558187,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-20",
+      "sales": 853991.5306179572,
+      "onpromotion": 11842.286186616428,
+      "transactions": 88687.71015387049,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-21",
+      "sales": 855352.2546735912,
+      "onpromotion": 11841.65588931141,
+      "transactions": 88685.04430307898,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-22",
+      "sales": 961229.7914204479,
+      "onpromotion": 11843.721277164945,
+      "transactions": 88683.34305300885,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-23",
+      "sales": 865726.1079680651,
+      "onpromotion": 11842.387437761441,
+      "transactions": 88682.69675454007,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-24",
+      "sales": 864419.1782789201,
+      "onpromotion": 11838.98546534294,
+      "transactions": 88682.69916657731,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-25",
+      "sales": 866963.8554405598,
+      "onpromotion": 11831.063214999444,
+      "transactions": 88683.13911926067,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-26",
+      "sales": 843972.9594901595,
+      "onpromotion": 11821.346791843984,
+      "transactions": 88684.06756875549,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-27",
+      "sales": 852242.7730705544,
+      "onpromotion": 11823.257686403182,
+      "transactions": 88685.38027342744,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-28",
+      "sales": 855036.3406828936,
+      "onpromotion": 11824.615855584158,
+      "transactions": 88686.91715298941,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-29",
+      "sales": 954688.8326745031,
+      "onpromotion": 11825.765405689717,
+      "transactions": 88688.84129325216,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-30",
+      "sales": 865040.6364965998,
+      "onpromotion": 11826.57083651076,
+      "transactions": 88691.06897152796,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-10-31",
+      "sales": 863230.8359855018,
+      "onpromotion": 11827.133946748523,
+      "transactions": 88693.05951775379,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-11-01",
+      "sales": 893431.8430782434,
+      "onpromotion": 11827.528678239962,
+      "transactions": 88694.43856885284,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-11-02",
+      "sales": 875062.9711379439,
+      "onpromotion": 11827.899630236407,
+      "transactions": 88695.20674556808,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-11-03",
+      "sales": 868819.74144689,
+      "onpromotion": 11828.296914214223,
+      "transactions": 88695.53343759861,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-11-04",
+      "sales": 877569.837925745,
+      "onpromotion": 11828.526529696499,
+      "transactions": 88695.5161094008,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-11-05",
+      "sales": 963270.6317606953,
+      "onpromotion": 11828.747148853174,
+      "transactions": 88695.37317519834,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-11-06",
+      "sales": 875133.5912344542,
+      "onpromotion": 11828.849845383953,
+      "transactions": 88695.05227364297,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-11-07",
+      "sales": 875519.4780519806,
+      "onpromotion": 11828.981332139796,
+      "transactions": 88694.47878480796,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-11-08",
+      "sales": 869559.1122911301,
+      "onpromotion": 11829.260269618608,
+      "transactions": 88693.74997744437,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-11-09",
+      "sales": 849845.0832821677,
+      "onpromotion": 11829.87441333505,
+      "transactions": 88692.99932076495,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    },
+    {
+      "date": "2017-11-10",
+      "sales": 850440.1374975148,
+      "onpromotion": 11830.914368047466,
+      "transactions": 88692.32445093094,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-11-11",
+      "sales": 861534.4670986442,
+      "onpromotion": 11831.571104039189,
+      "transactions": 88691.73812070544,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-11-12",
+      "sales": 962668.3251979306,
+      "onpromotion": 11831.99659779467,
+      "transactions": 88691.24535571608,
+      "oil_price": 47.57,
+      "holiday_count": 1.0,
+      "is_holiday": 1.0
+    },
+    {
+      "date": "2017-11-13",
+      "sales": 864497.1292259287,
+      "onpromotion": 11832.074908479586,
+      "transactions": 88690.84089813955,
+      "oil_price": 47.57,
+      "holiday_count": 0.0,
+      "is_holiday": 0.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Dependencies
+**/node_modules/
+**/dist/
+
+# Python cache / environments
+**/__pycache__/
+*.pyc
+**/.venv/
+**/venv/
+
+# Environment / secrets
+**/.env
+**/.env.*
+
+# Large raw datasets
+**/data/raw/

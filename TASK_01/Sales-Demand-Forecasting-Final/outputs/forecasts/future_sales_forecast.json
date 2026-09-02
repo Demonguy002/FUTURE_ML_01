@@ -1,0 +1,149 @@
+{
+    "model": {
+        "name": "Seasonal HGB-C",
+        "r2": 0.9571570558,
+        "r2_percent": 95.71570558,
+        "mape_percent": 3.0182,
+        "rmse": 31501.11,
+        "mae": 25761.64
+    },
+    "forecast": {
+        "horizon_days": 30,
+        "start_date": "2017-08-16",
+        "end_date": "2017-09-14",
+        "total_predicted_sales": 24650425.721176066,
+        "average_daily_sales": 821680.8573725355,
+        "minimum_daily_sales": 758724.1915464113,
+        "maximum_daily_sales": 933264.9216232388,
+        "peak_date": "2017-09-10"
+    },
+    "assumptions": {
+        "future_promotion": 11242.535714285714,
+        "future_transactions": 88655.10714285714,
+        "future_oil_price": 47.57,
+        "future_holiday_count": 0,
+        "future_is_holiday": 0
+    },
+    "daily_forecast": [
+        {
+            "date": "2017-08-16",
+            "predicted_sales": 807568.1649540979
+        },
+        {
+            "date": "2017-08-17",
+            "predicted_sales": 758724.1915464113
+        },
+        {
+            "date": "2017-08-18",
+            "predicted_sales": 789570.5987008209
+        },
+        {
+            "date": "2017-08-19",
+            "predicted_sales": 810769.3863066395
+        },
+        {
+            "date": "2017-08-20",
+            "predicted_sales": 891151.7511274349
+        },
+        {
+            "date": "2017-08-21",
+            "predicted_sales": 830212.8935839355
+        },
+        {
+            "date": "2017-08-22",
+            "predicted_sales": 773604.7184855592
+        },
+        {
+            "date": "2017-08-23",
+            "predicted_sales": 784298.1030760134
+        },
+        {
+            "date": "2017-08-24",
+            "predicted_sales": 768236.6673513378
+        },
+        {
+            "date": "2017-08-25",
+            "predicted_sales": 800554.644824544
+        },
+        {
+            "date": "2017-08-26",
+            "predicted_sales": 813263.358421488
+        },
+        {
+            "date": "2017-08-27",
+            "predicted_sales": 915478.8465839704
+        },
+        {
+            "date": "2017-08-28",
+            "predicted_sales": 851710.5332376307
+        },
+        {
+            "date": "2017-08-29",
+            "predicted_sales": 804701.6823591501
+        },
+        {
+            "date": "2017-08-30",
+            "predicted_sales": 814366.7040010366
+        },
+        {
+            "date": "2017-08-31",
+            "predicted_sales": 777238.7417002432
+        },
+        {
+            "date": "2017-09-01",
+            "predicted_sales": 837340.7119809551
+        },
+        {
+            "date": "2017-09-02",
+            "predicted_sales": 825202.5925657433
+        },
+        {
+            "date": "2017-09-03",
+            "predicted_sales": 906574.2820162096
+        },
+        {
+            "date": "2017-09-04",
+            "predicted_sales": 821262.1495225705
+        },
+        {
+            "date": "2017-09-05",
+            "predicted_sales": 819838.6633224526
+        },
+        {
+            "date": "2017-09-06",
+            "predicted_sales": 818369.4906079996
+        },
+        {
+            "date": "2017-09-07",
+            "predicted_sales": 799251.1683099421
+        },
+        {
+            "date": "2017-09-08",
+            "predicted_sales": 823736.4143125521
+        },
+        {
+            "date": "2017-09-09",
+            "predicted_sales": 834833.2076640931
+        },
+        {
+            "date": "2017-09-10",
+            "predicted_sales": 933264.9216232388
+        },
+        {
+            "date": "2017-09-11",
+            "predicted_sales": 806459.9641817077
+        },
+        {
+            "date": "2017-09-12",
+            "predicted_sales": 814444.7316272554
+        },
+        {
+            "date": "2017-09-13",
+            "predicted_sales": 818159.741962101
+        },
+        {
+            "date": "2017-09-14",
+            "predicted_sales": 800236.6952189318
+        }
+    ]
+}
