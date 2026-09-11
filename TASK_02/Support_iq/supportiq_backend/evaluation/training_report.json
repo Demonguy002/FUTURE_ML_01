@@ -1,0 +1,83 @@
+{
+    "dataset": "support_ticket_router_12k.csv",
+    "total_rows": 11693,
+    "training_rows": 9354,
+    "test_rows": 2339,
+    "classes": [
+        "api",
+        "billing",
+        "cancellation",
+        "complaint",
+        "technical",
+        "upgrade"
+    ],
+    "model": "TF-IDF + LinearSVC",
+    "accuracy": 0.9952971355280035,
+    "weighted_precision": 0.9953133343175251,
+    "weighted_recall": 0.9952971355280035,
+    "weighted_f1": 0.9952932988071134,
+    "vectorizer": {
+        "analyzer": "char_wb",
+        "ngram_range": [
+            3,
+            5
+        ],
+        "min_df": 2,
+        "max_df": 0.98,
+        "sublinear_tf": true
+    },
+    "classifier": {
+        "type": "LinearSVC",
+        "C": 2.0
+    },
+    "confusion_matrix": [
+        [
+            393,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        [
+            0,
+            388,
+            1,
+            0,
+            1,
+            4
+        ],
+        [
+            0,
+            0,
+            373,
+            1,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            390,
+            0,
+            0
+        ],
+        [
+            1,
+            1,
+            0,
+            0,
+            393,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            1,
+            0,
+            391
+        ]
+    ]
+}

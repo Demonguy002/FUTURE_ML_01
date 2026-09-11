@@ -1,0 +1,46 @@
+SUPPORTIQ CATEGORY MODEL TRAINING REPORT
+============================================================
+
+Dataset: support_ticket_router_12k.csv
+Total samples: 11693
+Training samples: 9354
+Test samples: 2339
+Classes: api, billing, cancellation, complaint, technical, upgrade
+
+MODEL
+------------------------------------------------------------
+TF-IDF analyzer: char_wb
+N-gram range: (3, 5)
+Classifier: LinearSVC
+C: 2.0
+
+HELD-OUT TEST RESULTS
+------------------------------------------------------------
+Accuracy: 99.5297%
+Weighted Precision: 99.5313%
+Weighted Recall: 99.5297%
+Weighted F1: 99.5293%
+
+CLASSIFICATION REPORT
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+         api     0.9975    0.9975    0.9975       394
+     billing     0.9974    0.9848    0.9911       394
+cancellation     0.9973    0.9973    0.9973       374
+   complaint     0.9924    1.0000    0.9962       390
+   technical     0.9975    0.9949    0.9962       395
+     upgrade     0.9899    0.9974    0.9936       392
+
+    accuracy                         0.9953      2339
+   macro avg     0.9953    0.9953    0.9953      2339
+weighted avg     0.9953    0.9953    0.9953      2339
+
+CONFUSION MATRIX
+------------------------------------------------------------
+[[393   0   0   1   0   0]
+ [  0 388   1   0   1   4]
+ [  0   0 373   1   0   0]
+ [  0   0   0 390   0   0]
+ [  1   1   0   0 393   0]
+ [  0   0   0   1   0 391]]
